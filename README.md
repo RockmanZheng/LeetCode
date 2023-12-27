@@ -2,6 +2,12 @@
 
 ## Tools
 
+### Quick Sort
+- Use case: Sort
+- Time complexity = $O(N\log N)$
+
+Examples: [1637](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/description/)
+
 ### Prefix Sum
 
 - Use case: Compute $x[i+1]+\cdots+x[j]$ for different $i,j$.
@@ -25,6 +31,14 @@ Examples:
 
 Examples:
 - [935](https://leetcode.com/problems/knight-dialer/description/)
+
+### Memoization
+
+- Use case: Avoid repeated calculation
+- Usage: Store the calculated value
+
+Examples:
+- [1155](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/)
 
 ### Hashmap
 
