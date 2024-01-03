@@ -22,3 +22,23 @@ public:
         }
     }
 };
+
+// Binary search approach
+class Solution {
+public:
+
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        int m = nums1.size(),n = nums2.size();
+        int l1 = 0, r1 = m, mid1, l2 = 0, r2 = n, mid2;
+        if((m+n)%2){// if it is odd
+            while(l1<r1){
+                mid1 = (l1+r1)/2;
+                while(l2<r2){// find the upper bound of nums1[mid1] in nums2
+                    mid2 = (l2+r2)/2;
+                    if(nums2[mid2]>nums1[mid1]) 
+                }
+            }
+        }
+
+    }
+};
