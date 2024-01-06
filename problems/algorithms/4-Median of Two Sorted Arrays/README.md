@@ -3,8 +3,8 @@
 ## Analysis
 
 Let $N$ be the total number of elements. Considering the edge cases with repeated elements and both cases with odd and even $N$, the equivalent definitions of median are
-1. An element $x$ is the median if the number of elements that are less than or equal to (on the left of) $x$ equals to the number of elements that are larger than or equal to (on the right of) $x$
-2. An element $x$ is the median if at least $\lfloor (N+1)/2\rfloor$ elements are on the left of $x$ and at least $\lfloor (N+1)/2\rfloor$ elements are on the right of $x$
+1. A number $x$ is the median if the number of elements that are less than or equal to (on the left of) $x$ equals to the number of elements that are larger than or equal to (on the right of) $x$
+2. A number $x$ is the median if at least $\lfloor (N+1)/2\rfloor$ elements are on the left of $x$ and at least $\lfloor (N+1)/2\rfloor$ elements are on the right of $x$
 
 
 For example, when the total number of element is odd
